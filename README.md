@@ -12,6 +12,8 @@ Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemu
 
 This entire project is motivated by the principle that if you're going to make something stupid, you might as well go all in, so there'll definitely be traces of that in this project.
 
+Target platform is a raspberry pi but this may change based on the performance. We have noticed that installing mozilla tts is a bit different and harder on a raspberry pi, not to mention that the raspberry pi has very constrained hardware so we'll have to see how this goes along.
+
 ### To-Dos:
 -Using Deepspeech or Speech_recognition for user input (kind of the whole point of the project).
 <br>
