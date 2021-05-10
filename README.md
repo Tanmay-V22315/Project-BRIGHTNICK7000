@@ -44,4 +44,6 @@ This entire project is motivated by the principle that if you're going to make s
 <br>
 https://github.com/jurgenarias/Portfolio/tree/master/Voice%20Classification
 <br>
+https://realpython.com/python-speech-recognition/#working-with-microphones
+<br>
 (Will update this section as the project progresses.)
