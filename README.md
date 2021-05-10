@@ -4,6 +4,8 @@
 The entire project is made in python. It is a collaboration between Tanmay Vemuri and S.A Rajkumar. Expect to see the relevant docs and logs soon as this is a work in progress.
 Currently works only in linux and is not meant to be shipped out. Will work on that probably.
 
+Current state of the project: https://www.youtube.com/watch?v=pY1tT1fTJ2Q
+
 Anyone can use anything within this project with absolutely no restrictions. This project is and will always remain open-source.
 
 Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemuri85@gmail.com or rajkumar743591@gmail.com (These email addresses will probably be changed or removed later so keep your eye out on that).
