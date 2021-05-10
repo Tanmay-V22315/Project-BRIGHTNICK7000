@@ -1,14 +1,14 @@
 # Project-BRIGHTNICK7000
 ## This is a Mozilla-TTS and Deepspeech/SpeechRecognition based 'Home assistant' as a part of I.P./C.S. school project for Class 12 (K.D.A.V.)
 
-The entire project is made in python. It is a collaboration between Tanmay Vemuri and S.A Rajkumar. Expect to see the relevant docs and logs soon as this is a work in progress.
+The entire project is made in python. Made by Tanmay Vemuri. Expect to see the relevant docs and logs soon as this is a work in progress.
 Currently works only in linux and is not meant to be shipped out. Will work on that probably.
 
 Current state of the project: https://www.youtube.com/watch?v=pY1tT1fTJ2Q
 
 Anyone can use anything within this project with absolutely no restrictions. This project is and will always remain open-source.
 
-Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemuri85@gmail.com or rajkumar743591@gmail.com (These email addresses will probably be changed or removed later so keep your eye out on that).
+Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemuri85@gmail.com (This email address will probably be changed or removed later so keep your eye out on that).
 
 This entire project is motivated by the principle that if you're going to make something stupid, you might as well go all in, so there'll definitely be traces of that in this project.
 
@@ -33,7 +33,7 @@ Target platform is a raspberry pi but this may change based on the performance. 
 
 
 <br>
-
+Demo video: https://www.youtube.com/watch?v=pY1tT1fTJ2Q   (unlisted link)
 </br>
 
 ##### References:
