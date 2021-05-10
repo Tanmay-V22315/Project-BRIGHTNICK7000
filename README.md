@@ -8,6 +8,8 @@ Anyone can use anything within this project with absolutely no restrictions. Thi
 
 Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemuri85@gmail.com or rajkumar743591@gmail.com (These email addresses will probably be changed or removed later so keep your eye out on that).
 
+This entire project is motivated by the principle that if you're going to make something stupid, you might as well go all in, so there'll definitely be traces of that in this project.
+
 ### To-Dos:
 -Using Deepspeech or Speech_recognition for user input (kind of the whole point of the project).
 <br>
