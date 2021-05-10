@@ -17,7 +17,7 @@ Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemu
 <br>
 -Offline Wikipedia search using wikimedia dumps,
 <br>
--Extensive reply library. (you (the viewer) can  can contribute to this library as well once we get around to using a specific file to get replies from.)
+-Extensive reply library. (you (the viewer) can contribute to this library as well once we get around to using a specific file to get replies from.)
 <br>
 -Config.json integration to carry forward variables specified by end-user.
 <br>
