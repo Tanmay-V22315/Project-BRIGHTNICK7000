@@ -23,10 +23,7 @@ Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemu
 <br>
 -Opening applications.
 <br>
-
-</br>
-### Unlikely To-Dos:
--Voice recognition.
+-Voice recognition. (Unlikely, but will try if time permits)
 
 
 <br>
