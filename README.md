@@ -1,5 +1,5 @@
 # Project-BRIGHTNICK7000
-## This is a Mozilla-TTS and Deepspeech based 'Home assistant' as a part of a school project for Class 12.
+## This is a Mozilla-TTS and Deepspeech/SpeechRecognition based 'Home assistant' as a part of I.P./C.S. school project for Class 12.
 
 The entire project is made in python. It is a collaboration between Tanmay Vemuri and S.A Rajkumar. Expect to see the relevant docs and logs soon as this is a work in progress.
 Currently works only in linux and is not meant to be shipped out. Will work on that probably.
@@ -9,7 +9,7 @@ Anyone can use anything within this project with absolutely no restrictions. Thi
 Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemuri85@gmail.com or rajkumar743591@gmail.com (These email addresses will probably be changed or removed later so keep your eye out on that).
 
 ### To-Dos:
--Using Deepspeech for user input (kind of the whole point of the project).
+-Using Deepspeech or Speech_recognition for user input (kind of the whole point of the project).
 <br>
 -Saving Queries To a log file
 <br>
@@ -22,6 +22,12 @@ Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemu
 -Config.json integration to carry forward variables specified by end-user.
 <br>
 -Opening applications.
+<br>
+
+</br>
+### Unlikely To-Dos:
+-Voice recognition.
+
 
 <br>
 
@@ -36,5 +42,7 @@ Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemu
 -https://github.com/mozilla/DeepSpeech
 <br>
 -https://pypi.org/project/deepspeech/ or https://deepspeech.readthedocs.io/en/r0.9/
+<br>
+https://github.com/jurgenarias/Portfolio/tree/master/Voice%20Classification
 <br>
 (Will update this section as the project progresses.)
