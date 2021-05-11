@@ -16,13 +16,23 @@ from pathlib import Path
 import sys
 import random
 from bs4 import BeautifulSoup
-from PyDictionary import PyDictionary
-dict = PyDictionary()
 import warnings
 warnings.filterwarnings('ignore')
-import nltk
+from deepspeech import Model
+import numpy as np
+import speech_recognition as sr
 
-def main(): #main() can be used at anytime to loopback to the beginning and start over.
+sample_rate = 16000
+beam_width = 500
+lm_alpha = 0.75
+lm_beta = 1.85
+n_features = 26
+n_context = 9
+
+
+def main():
+    subprocess.run("clear")
+     #main() can be used at anytime to loopback to the beginning and start over.
     #These 3 lines specify those spinners and designs that you see during the execution
     bufferspinner = Halo(text="Analyzing", spinner='dots')
     donespinner = Halo(text="Logging Query, please wait. Saving to query.log in output directory.",text_color='green', spinner='line', color='green', animation="marquee")
@@ -46,10 +56,10 @@ def main(): #main() can be used at anytime to loopback to the beginning and star
     #audcache1_check()
 
 
-    if intext!='' and outdir!='':
-        print("Input text not null, Directory also exists, continuing normally")
-    elif outdir=='':
-        print("Please set correct output directory")
+    #if intext!='' and outdir!='':
+    #    print("Input text not null, Directory also exists, continuing normally")
+    #    elif outdir=='':
+    #    print("Please set correct output directory")
 
 
 
@@ -116,18 +126,24 @@ def main(): #main() can be used at anytime to loopback to the beginning and star
                 print("python - opens python3, set the required python through source code (either python which uses python 2 or python3)")
                 print("fullpower - elevates terminal and consequently your permissions to the super user or root level. NOTE: TAKE EXTRA EXTRA CARE ABOUT WHAT YOU SPEAK OR TYPE AT THIS STAGE, THERE'S A GOOD CHANCE YOU'LL SCREW UP YOUR INSTALLATION.")
 
-        elif intext.lower() in (['tell me a joke','tell me a joke.','tell me another joke']):
+        elif intext.lower() in (['tell me a joke','tell me a joke.','tell me another joke', 'tell me another joke.']):
             joke_shuf()
             df = pd.read_csv("/home/randomaccessvemuri/Code/shuffledjoke.csv", usecols =[1], header = None, quotechar='"')
             outext = df._get_value(0, 1)
             print(Fore.YELLOW+Back.BLACK+outext)
 
-        elif intext.lower() in (['i want to know about something random', "tell me something i don't know","I want to know something new today"]):
-            comup="coming right up."
-            gen_soundf(comup)
-            outext=wikipedia.random(pages=1)
+        elif intext.lower() in (['i want to know about something random', "tell me something i don't know","i want to know something new today", "tell me something random"]):
+            speakingspinner.start()
+            playsound("/home/randomaccessvemuri/Code/comup.wav")
+            speakingspinner.stop()
+            searchingspinner.start()
+            para=wikipedia.random(pages=1)
+            outext=wikipedia.summary(para,sentences=2)
+            searchingspinner.stop()
+            print(Fore.CYAN+Back.BLACK+para)
+            print(Fore.CYAN+Back.BLACK+outext)
 
-        
+
 
 
         elif intext.lower().startswith("monitor"):
@@ -137,14 +153,18 @@ def main(): #main() can be used at anytime to loopback to the beginning and star
             subprocess.run("gnome-system-monitor")
             main()
         elif intext.lower().startswith('stop'):
-            exsound="Hope you comeback!"
+            exsound="Hope you come back!"
             gen_soundf(exsound)
             exit()
 
 
     def loop_input():
         global loopin
-        loopin=input('Anything else? Query has been saved to relevant logs.')
+        print("Query has been saved to query.log for future reference.")
+        speakingspinner.start()
+        playsound("/home/randomaccessvemuri/Code/Log.wav")
+        speakingspinner.stop()
+        loopin=input('Anything else?')
         if loopin.lower() in (['true', 'yes', 'Yes', 'obviously', 'duh', 'Absolutely', 'I wanted to ask this one thing', 'I want ask something else', 'I want to ask something']):
             looprxn=(random.choice(["Okay.", "Go ahead.", "Alright.", "I'm listening.", "Glad to help.", "Nice talking to a curious person every once in a while!", "Splendid!"]))
             gen_soundf(looprxn)
