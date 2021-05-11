@@ -17,7 +17,7 @@ Target platform is a raspberry pi but this may change based on the performance. 
 ### To-Dos:
 -Using Deepspeech or Speech_recognition for user input (kind of the whole point of the project).
 <br>
--Saving Queries To a log file
+~~-Saving Queries To a log file~~
 <br>
 -Integrating penetration testing and hacking tools that can be used with speech aliases.
 <br>
