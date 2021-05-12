@@ -51,3 +51,10 @@ https://github.com/jurgenarias/Portfolio/tree/master/Voice%20Classification
 https://realpython.com/python-speech-recognition/#working-with-microphones
 <br>
 (Will update this section as the project progresses.)
+<br>
+
+
+
+</br>
+Note: I'm switching over to Vosk and Kaldi for ASR since Deepspeech isn't very precise with....my "kind of english". But this is not finalised yet so I haven't updated this readme accordingly.
+
