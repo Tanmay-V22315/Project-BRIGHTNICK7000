@@ -6,7 +6,7 @@ Currently works only in linux and is not meant to be shipped out. Will work on t
 
 Anyone can use anything within this project with absolutely no restrictions. This project is and will always remain open-source.
 
-Have a complaint, suggestion or a copyright complaint? Contact us at Tanmay.vemuri85@gmail.com (This email address will probably be changed or removed later so keep your eye out on that).
+Have a complaint, suggestion or a copyright complaint? Contact me at Tanmay.vemuri85@gmail.com (This email address will probably be changed or removed later so keep your eye out on that).
 
 This entire project is motivated by the principle that if you're going to make something stupid, you might as well go all in, so there'll definitely be traces of that in this project.
 
