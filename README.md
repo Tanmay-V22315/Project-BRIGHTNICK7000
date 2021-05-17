@@ -15,29 +15,30 @@ There will be a bash install script that will handle the dependencies for you (I
 Target platform is a raspberry pi but this may change based on the performance. We have noticed that installing mozilla tts is a bit different and harder on a raspberry pi, not to mention that the raspberry pi has very constrained hardware so we'll have to see how this goes along.
 
 ### What this can do:
-- ASR
-- Tells the weather
-- Tells a joke
-- Searches google and tells the results
-- News
-- Speak
-- Execute terminal commands (WIP)
-- Tells a quote
-- gives a short description of stuff you ask by looking up Wikipedia
-- Dictionary meanings
-- Synonyms of words
-- Antonyms of words
-- Offline Dictionary
-- Finds a random wikipedia article and gives a 2-3 sentence summary.
-- Gives the meaning of a random legal term (cause why not)
-- Open System monitor
-- Saves queries to a log file
-- Can repeat what you say
-- Gives an introduction of itself (Kind of important)
-- Pause by voice 
-- Exit by voice
-- If your query cannot be handled by available statements and functions, takes an angry nap (Just kidding, searches google, tells the results or contents of a table or Opens the first link) 
+- ASR (offline)
+- Tells the weather (online (duh, what, do I look like I own a supercomputer that can accurately model and predict the weather at any place?))
+- Tells a joke (offline)
+- Searches google and tells the results (Online (Again, obvious))
+- News (Online)
+- Speak (Offline)
+- Execute terminal commands (WIP) (Offline)
+- Tells a quote (Offline)
+- Gives a short description of stuff you ask by looking up Wikipedia (Obviously offline)
+- Dictionary meanings (Online (As well as offline but will get to that)
+- Synonyms of words (Online, requires Wordnet)
+- Antonyms of words (Same as above)
+- Offline Dictionary (Offline (It's in the name, why am I even telling you)
+- Finds a random wikipedia article and gives a 2-3 sentence summary. (Online)
+- Gives the meaning of a random legal term (cause why not) (Online)
+- Open System monitor (Obvious)
+- Saves queries to a log file (I don't even need to say this one)
+- Can repeat what you say (....)
+- Gives an introduction of itself (Kind of important) (Offline)
+- Pause by voice (Obvious)
+- Exit by voice (Obvious)
+- If your query cannot be handled by available statements and functions, takes an angry nap (Just kidding, searches google, tells the results or contents of a table or Opens the first link) (Online)
 
+So basically, the point is the Assistant is semi-functional even when offline (Even if it is a bit slower as compared to online versions)
 
 
 <br>
