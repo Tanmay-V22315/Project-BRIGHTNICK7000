@@ -12,7 +12,7 @@ This entire project is motivated by the principle that if you're going to make s
 
 There will be a bash install script that will handle the dependencies for you (In a manner of speaking) so stay tuned for that as well, ig.
 
-Target platform is a raspberry pi but this may change based on the performance. We have noticed that installing mozilla tts is a bit different and harder on a raspberry pi, not to mention that the raspberry pi has very constrained hardware so we'll have to see how this goes along.
+Target platform is a raspberry pi but this may change based on the performance. I have noticed that installing mozilla tts is a bit different and harder on a raspberry pi, not to mention that the raspberry pi has very constrained hardware so I'll have to see how this goes along.
 
 ### What this can do:
 - ASR (offline)
