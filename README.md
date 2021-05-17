@@ -37,6 +37,7 @@ Target platform is a raspberry pi but this may change based on the performance. 
 - Pause by voice (Obvious)
 - Exit by voice (Obvious)
 - If your query cannot be handled by available statements and functions, takes an angry nap (Just kidding, searches google, tells the results or contents of a table or Opens the first link) (Online)
+- Since this project makes use of the Mozilla tts project, This implies that you can train with a dataset to make a custom voice (Maybe even your own). I'll make a Jupyter Notebook so that anyone can make ther own custom voice models. (Offline, kinda since for training you're better off using Google Colab)
 
 So basically, the point is the Assistant is semi-functional even when offline (Even if it is a bit slower as compared to online versions)
 
