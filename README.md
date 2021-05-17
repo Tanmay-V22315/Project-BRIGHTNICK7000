@@ -47,7 +47,7 @@ So basically, the point is the Assistant is semi-functional even when offline (E
 Demo video: https://www.youtube.com/watch?v=pY1tT1fTJ2Q   (unlisted link) (Old)
 </br>
 
-##### References:
+##### References and Credits for Websites:
 
 -https://github.com/nmstoker/SimpleSpeechLoop
 <br>
@@ -61,8 +61,20 @@ https://github.com/jurgenarias/Portfolio/tree/master/Voice%20Classification
 <br>
 https://realpython.com/python-speech-recognition/#working-with-microphones
 <br>
+https://kaldi-asr.org/
+<br>
+https://alphacephei.com/vosk/ and https://alphacephei.com/vosk/models
+<br>
+https://github.com/alphacep/vosk-api/blob/master/python/example/test_microphone.py (I basically modified this so as to get an input from the user instead of it constantly streaming what you speak.)
+<br>
+https://stackoverflow.com/ (Obvious, don't need to say anything about it)
+<br>
+https://colab.research.google.com/ (This is basically the best thing ever. The guys at google provide a virtual machine-esque thing that you can use for anything for 12 hours at a time (30 minutes if you aren't interacting with it/close the browser)
+<br>
+https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based on time)
 (Will update this section as the project progresses.)
 <br>
+
 
 
 
