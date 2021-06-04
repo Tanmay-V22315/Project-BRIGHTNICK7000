@@ -77,10 +77,10 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 <br>
 
 
-
+### Notes:
 
 </br>
-- Note: I'm switching over to Vosk and Kaldi for ASR since Deepspeech isn't very precise with....my "kind of english". But this is not finalised yet so I haven't updated this readme accordingly.
+- Note: I'm switching over to Vosk and Kaldi for ASR since Deepspeech isn't very precise with....my *"kind of english"*. But this is not finalised yet so I haven't updated this readme accordingly.
 <br>
 
 
