@@ -37,7 +37,7 @@ Target platform is a raspberry pi but this may change based on the performance. 
 - Gives an introduction of itself (Kind of important) (Offline)
 - Pause by voice (Obvious)
 - Exit by voice (Obvious)
-- If your query cannot be handled by available statements and functions, takes an angry nap (Just kidding, searches google, tells the results or contents of a table or Opens the first link) (Online)
+- If your query cannot be handled by available statements and functions, **takes an angry nap** (Just kidding, searches google, tells the results or contents of a table or Opens the first link) (Online)
 - Since this project makes use of the Mozilla tts project, This implies that you can train with a dataset to make a custom voice (Maybe even your own). I'll make a Jupyter Notebook so that anyone can make ther own custom voice models.(Or rather make it easier to do so) (Offline, kinda since for training you're better off using Google Colab)
 - Tells you random fun facts
 
