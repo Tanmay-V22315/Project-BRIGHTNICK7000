@@ -15,6 +15,7 @@ There will be a bash install script that will handle the dependencies for you (I
 Target platform is a raspberry pi but this may change based on the performance. I have noticed that installing mozilla tts is a bit different and harder on a raspberry pi, not to mention that the raspberry pi has very constrained hardware so I'll have to see how this goes along.
 
 ### What this can do:
+- Tells Time
 - ASR (offline)
 - Tells the weather (online (duh, what, do I look like I own a supercomputer that can accurately model and predict the weather at any place?))
 - Tells a joke (offline)
