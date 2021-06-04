@@ -2,7 +2,7 @@
 ## This is a Mozilla-TTS and Vosk+Kaldi based 'Home assistant' as a part of a I.P./C.S. school project for Class 12 (K.D.A.V.)
 
 The entire project is made in python. Made by Tanmay Vemuri. Expect to see the relevant docs and logs soon as this is a work in progress.
-Currently works only in debian linux and is not meant to be shipped out. Will work on that probably.
+Currently works only in debian-based linux distros and is not meant to be shipped out. Will work on that probably.
 
 Anyone can use anything within this project with absolutely no restrictions. This project is and will always remain open-source.
 
