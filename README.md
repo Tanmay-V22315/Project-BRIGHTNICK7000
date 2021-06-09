@@ -24,7 +24,7 @@ Target platform is a raspberry pi but this may change based on the performance. 
 - Speak (Offline)
 - Execute terminal commands (WIP) (Offline)
 - Tells a quote (Offline)
-- Gives a short description of stuff you ask by looking up Wikipedia (Obviously offline)
+- Gives a short description of stuff you ask by looking up Wikipedia (Obviously online)
 - Dictionary meanings (Online (As well as offline but will get to that)
 - Synonyms of words (Online, requires Wordnet)
 - Antonyms of words (Same as above)
