@@ -92,3 +92,8 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 
 </br>
 -Note: The dictionary can now be used offline, complete with meanings, synonyms and antonyms.(9/6/2021 (DD-MM-YYYY))
+<br>
+
+
+</br>
+-Uh, New note..No no wait, **Big Note**: Wolfram Engine offline requires (I think) about 19 GB of storage, Point is, required storage for this whole thing will balloon up to 45 GB, which is......quite problematic. 
