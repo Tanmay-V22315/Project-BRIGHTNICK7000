@@ -25,9 +25,9 @@ Target platform is a raspberry pi but this may change based on the performance. 
 - Execute terminal commands (WIP) (Offline)
 - Tells a quote (Offline)
 - Gives a short description of stuff you ask by looking up Wikipedia (Obviously online)
-- Dictionary meanings (Online (As well as offline but will get to that)
-- Synonyms of words (Online, requires Wordnet)
-- Antonyms of words (Same as above)
+- Dictionary meanings (Offline)
+- Synonyms of words (Offline)
+- Antonyms of words (Offline)
 - Offline Dictionary (Offline (It's in the name, why am I even telling you)
 - Finds a random wikipedia article and gives a 2-3 sentence summary. (Online)
 - Gives the meaning of a random legal term (cause why not) (Online)
@@ -86,3 +86,8 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 
 </br>
 - Another note: I'm moving all of the files to Google Drive due to file size limitations in github. Once I upload the final usable build, I'll update the readme accordingly with the link. The whole thing for distribution itself is like 1 GB and post installation it can take up 26 GB (Mostly because you need to build Kaldi by yourself and it is required by Vosk. Also Vosk+Kaldi can understand English with an Indian accent much better than Deepspeech (Without training it yourself, that is.(As it turns out I'm not made of time....or money or compute power, so......No dice))
+<br>
+
+
+</br>
+-Note: The dictionary can now be used offline, complete with meanings, synonyms and antonyms.(9/6/2021 (DD-MM-YYYY))
