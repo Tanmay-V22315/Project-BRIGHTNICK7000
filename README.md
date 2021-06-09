@@ -104,3 +104,8 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 
 <br>
 -Scratch that previous Note, It requires 2 gigs to install Wolfram engine, Rejoice!!!!
+<br>
+
+
+</br>
+-Note: So....uh It turns out, you can do a lot of stuff with Wolfram, so much that that's what I'm going to be dealing with for the next potential months 
