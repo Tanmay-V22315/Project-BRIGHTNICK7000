@@ -97,3 +97,10 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 
 </br>
 -Uh, New note..No no wait.__Big Note__ Wolfram Engine offline requires (I think) about 19 GB of storage, Point is, required storage for this whole thing will balloon up to 45 GB, which is......quite problematic. 
+<br>
+
+
+
+
+<br>
+-Scratch that previous Note, It requires 2 gigs to install Wolfram engine, Rejoice!!!!
