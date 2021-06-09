@@ -17,7 +17,7 @@ Target platform is a raspberry pi but this may change based on the performance. 
 ### What this can do:
 - Tells Time
 - ASR (offline)
-- The Non-Trivial Kind of math using Wolfram engine and its client library.(Offline)
+- The Non-Trivial Kind of math using Wolfram engine and its client library.(WIP)(Offline)
 - Tells the weather (online (duh, what, do I look like I own a supercomputer that can accurately model and predict the weather at any place?))
 - Tells a joke (offline)
 - Searches google and tells the results (Online (Again, obvious))
