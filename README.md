@@ -88,7 +88,7 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 - Custom Voice
 - Name Change
 - Penetration testing (Hacking stuff)
-- Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc.
+- Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. . Basically, this will literally learn as you speak.
 
 
 
