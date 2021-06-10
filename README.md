@@ -76,6 +76,18 @@ https://colab.research.google.com/ (This is basically the best thing ever. The g
 https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based on time)
 (Will update this section as the project progresses.)
 <br>
+<br>
+
+</br>
+## Upcoming:
+- Music Player
+- Physics and maths Calculation using Wolfram
+- Config.json
+- Conversation.json for referencing responses
+- Custom Voice
+- Name Change
+- Penetration testing (Hacking stuff)
+
 
 
 ### Notes:
