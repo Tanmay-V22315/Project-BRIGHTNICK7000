@@ -78,7 +78,7 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 <br>
 <br>
 
-</br>
+
 ## Upcoming
 
 - Music Player
