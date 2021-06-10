@@ -79,7 +79,8 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 <br>
 
 </br>
-## Upcoming:
+## Upcoming
+
 - Music Player
 - Physics and maths Calculation using Wolfram
 - Config.json
