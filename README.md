@@ -53,6 +53,12 @@ Demo video: https://www.youtube.com/watch?v=pY1tT1fTJ2Q   (unlisted link) (Old)
 
 -https://github.com/nmstoker/SimpleSpeechLoop
 <br>
+https://www.wolframcloud.com/ (Don't worry, we're using the offline WolframEngine (Don't want it? You guessed it right, Don't worry again, you can configure it to use the cloud, you will have to sign up either way))
+<br>
+https://www.wolfram.com/engine/
+<br>
+https://reference.wolfram.com/language/
+<br>
 -https://github.com/mozilla/TTS
 <br>
 -https://github.com/mozilla/DeepSpeech
