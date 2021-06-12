@@ -92,9 +92,13 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 - Config.json
 - Conversation.json for referencing responses
 - Custom Voice
-- Name Change
+- Name Change (We here kinda don't like the name BRIGHTNICK-7000)
 - Penetration testing (Hacking stuff)
-- Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. . Basically, this will literally learn as you speak.
+- Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.
+- Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
+- Manually add in resources to handle Graph plotting, equation render, vector algebra and other "special cases" to make utmost use of WolframeEngine. (For now, the pseudocode is added down below in this readme which also deals with utilizing WolframEngine in general to an extent.)
+- Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and render convert that dataframe to HTML which can then be opened using webbrowser module for python.
+- Branched Conversation.json, user can follow up with a sentence and if the sentence fits certain trigger words, based on additional attributes (specified within that trigger words list in JSON). Basically, if the response trigger was from the conversation.json, save the response string and the list 
 
 
 
@@ -116,16 +120,69 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 
 
 </br>
--Uh, New note..No no wait.__Big Note__ Wolfram Engine offline requires (I think) about 19 GB of storage, Point is, required storage for this whole thing will balloon up to 45 GB, which is......quite problematic. 
+-Uh, New note..No no wait.**"Big Note"** Wolfram Engine offline requires (I think) about 19 GB of storage, Point is, required storage for this whole thing will balloon up to 45 GB, which is......quite problematic. 
 <br>
 
 
 
 
 <br>
--Scratch that previous Note, It requires 2 gigs to install Wolfram engine, Rejoice!!!!
+-Scratch that previous Note, It requires 2 gigs to install Wolfram engine, Rejoice!!!! (Although it increases as you go along and request (In a manner of speaking) more data)
 <br>
 
 
 </br>
 -Note: So....uh It turns out, you can do a lot of stuff with Wolfram, so much that that's what I'm going to be dealing with for the next potential months 
+
+
+
+
+# Pseudo Code for Handling WolframEngine stuff:
+```
+Handler 1:
+    Get input
+    Clean input
+    Get answer from SemanticInterpretation (Wolfram)
+      If not possible: Ask if question is math or science related
+          Yes: Proceed with Next Handler
+          No: Search for proper noun using nltk tokenization and spacy and find information in wikipedia or on Google.
+              #Ask "is this what you wanted to know about?":
+                  If yes:
+                      loopback to main() in main BRIGHTNICK7000 file
+                  If No: 
+                      ask user to specify term and search for that term in wikipedia and google
+      If possible:
+          proceed forward
+    Get type of Entity
+    Ask if detailed report to be generated
+    If yes:
+        Based on Entity name and type, search wikipedia and google and obtain all the info, obtain dataset using Wolfram SemanticInterpretation.
+          1. Obtain data from wolfram, clean it and export in the form of .xlsx
+             1. Remove images
+             2. Remove Lines (Plotted lines)
+             3. Remove Figures
+             4. Remove data that is too long
+          2. Convert generated xlsx into a dataframe using pandas
+          3. Remove Elements towards the end based on getrep from config.json
+          3. Get information from Google search and append it to dataframe
+          4. Get info from wikipedia, summarise it using summarizer, append it to dataframe
+          5. create a tempfile, convert dataframe to html and write to tempfile
+          6. Display HTML file using webbrowser
+    If no:
+        Proceed with looping Main() in main BRIGHTNICK7000 file
+        Break Handler 1
+Handler 2:
+    For Mathematics and Physics (Involving solvation of numerical data):
+    Check if math or physics or economics related:
+       1.Detect presence of operators in words (Like 'plus','minus','divided by' or simply 'by' or variables like 'x' or words like solve. )
+       2. Check for quantities like Acceleration, ampere, metres per second etc.
+       3. Based on input to 3.1 in Handler 1, init Handler 2.
+    Specify whether physics or math or economics:
+      If physics:
+          1. Get quantities from user, individually (Special case: Vectors, Plotting)
+          2. Ask which one to be derived.
+          3. If User wants to know about Formulas itself:
+               use mathtostring() to convert input form of required formula from wolfram to human readable form.
+          4. For vectors, during input for quantities, make the user mention vectors in some form or other for example: "I would like to work with vectors"
+    WIP (I'm still working from here on)
+```
