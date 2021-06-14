@@ -1,0 +1,19 @@
+#    ██╗
+# ██╗╚██╗
+# ╚═╝ ██║
+# ▄█╗ ██║
+# ▀═╝██╔╝
+#    ╚═╝
+#
+# Written by Tanmay Vemuri
+# This file is imported as an HJSON instead of the classic JSON (Which is why I can use so many comments here) so you might have some leeway in terms of Syntax. Still, It's a good idea to acquaint yourself with the JSON data transfer format.
+{
+  "dir": "Code/", //(Type: str) Output file, if you don't know, set it to the directory where all the rest of the files are.
+  "ttsmodeldir": "Models/Cortana-Test/ljspeech-ddc-May-03-2021_07+28PM-0000000/checkpoint_140000.pth.tar", //(Type: str) Model for Text-To-Speech Model, Has file extension 'pth.tar'. Don't have one? Don't prefer the one that came with this? Look at https://github.com/mozilla/TTS/wiki/Released-Models or train your own using Google Colab
+  "initprimer": true, //(Type: bool) This will determine if to pre-fetch all necessary and time-consuming modules before hand for comparatively faster experience. (Recommended: true)
+  "cityName":"Jamnagar", //(Type: str) Name of the city where you live. Example: London, Jamnagar, Ahmedabad (Important for weather. There is no 'default value' so if you don't want to specify, leave it to Jamnagar (Which is where I live as of writing this JSON file)).
+  "getrep": null, //(Type: int)  Asking for Data regarding a topic will result in returning of a huge huge Dataset (Upto 400 rows or more) from Wolfram. Use this to specify the number of rows, the rest will be removed when forming the dataframe for HTML formation.
+  "autcorrect": true, //(Type: bool) set this to true if you want your voice input to be autocorrected. If you're having some problems with it or are confident with your input, set this to false (Recommended: true)
+  "showconfig": false, //(Type: bool) set this to true if you want to take a look at your config.json before the whole thing initializes. Set this to false to prevent that (you can save 2-3 seconds by setting this to false) (Recommended: false)
+  "sleeptime": 5, //(Type: int) When you say 'stop', the assistant will 'go to sleep' for the amount of time specified here (in Seconds) (Exit is for exiting). (Recommended: 5)
+}
