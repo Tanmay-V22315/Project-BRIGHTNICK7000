@@ -1,4 +1,4 @@
-# IMPORTANT: Please don't use any of these file (Unless you know they work or are willing to take the risk). These have been uploaded here purely for Backup Purposes. 
+# IMPORTANT: Please don't use any of these file (Unless you know they work or are willing to take the risk(Hey, I know said you can use anything in this project since this supposed to be open source. I'm just warning you)). These have been uploaded here purely for Backup Purposes. 
 # Project-BRIGHTNICK7000
 ## This is a Mozilla-TTS and Vosk+Kaldi based 'Home assistant' as a part of a I.P./C.S. school project for Class 12 (K.D.A.V.)
 
