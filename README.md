@@ -93,12 +93,13 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 - Conversation.json for referencing responses
 - Custom Voice
 - Name Change (We here kinda don't like the name BRIGHTNICK-7000)
-- Penetration testing (Hacking stuff)
+- Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)
 - Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.
 - Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
 - Manually add in resources to handle Graph plotting, equation render, vector algebra and other "special cases" to make utmost use of WolframeEngine. (For now, the pseudocode is added down below in this readme which also deals with utilizing WolframEngine in general to an extent.)
 - Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and render convert that dataframe to HTML which can then be opened using webbrowser module for python.
 - Branched Conversation.json, user can follow up with a sentence and if the sentence fits certain trigger words, based on additional attributes (specified within that trigger words list in JSON). Basically, if the response trigger was from the conversation.json, save the response string and the list 
+- Classify Input into request types using Tensorflow if *'primitive'* filters miss.(I'm still learning it!)
 - Using FindTextualAnswers from Wolfram, answer follow up questions if response trigger involves a wikipedia article (Append the article to a cache).
 
 
