@@ -85,12 +85,6 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 </br>
 **https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_question_answer.ipynb** (This one is important)
 <br>
-@article{devlin2018bert,
-  title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding},
-  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
-  journal={arXiv preprint arXiv:1810.04805},
-  year={2018}
-}
 <br>
 (Will update this section as the project progresses.)
 <br>
@@ -112,8 +106,7 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 - Manually add in resources to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframeEngine. (For now, the pseudocode is added down below in this readme which also deals with utilizing WolframEngine in general to an extent.)
 - Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and render convert that dataframe to HTML which can then be opened using webbrowser module for python.
 - Branched Conversation.json, user can follow up with a sentence and if the sentence fits certain trigger words, based on additional attributes (specified within that trigger words list in JSON). Basically, if the response trigger was from the conversation.json, save the response string and the list 
-- Classify Input into request types using Tensorflow if *'primitive'* filters miss.(I'm still learning it!)
-<br>
+- Classify Input into request types using Tensorflow if *'primitive'* filters miss.(I'm still learning it!)<br>
 ~~- Using FindTextualAnswers from Wolfram, answer follow up questions if response trigger involves a wikipedia article (Append the article to a cache).~~ (I'll be using BERT so....)
 
 
