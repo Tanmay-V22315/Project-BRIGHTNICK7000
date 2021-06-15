@@ -92,12 +92,12 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 
 - Music Player
 - Physics and maths Calculation using Wolfram
-- Config.json
+- ~~Config.json (Done)~~
 - Conversation.json for referencing responses
 - Custom Voice
 - Name Change (We here kinda don't like the name BRIGHTNICK-7000)
 - Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)
-- 
+- Based on (haha, based) user input, find wikipedia page or get text from first three web sites and proper noun  
 - Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.
 - Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
 - Manually add in resources to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframeEngine. (For now, the pseudocode is added down below in this readme which also deals with utilizing WolframEngine in general to an extent.)
