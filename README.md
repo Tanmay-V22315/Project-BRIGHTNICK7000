@@ -113,7 +113,7 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 - Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and render convert that dataframe to HTML which can then be opened using webbrowser module for python.
 - Branched Conversation.json, user can follow up with a sentence and if the sentence fits certain trigger words, based on additional attributes (specified within that trigger words list in JSON). Basically, if the response trigger was from the conversation.json, save the response string and the list 
 - Classify Input into request types using Tensorflow if *'primitive'* filters miss.(I'm still learning it!)
-- Using FindTextualAnswers from Wolfram, answer follow up questions if response trigger involves a wikipedia article (Append the article to a cache).
+~~- Using FindTextualAnswers from Wolfram, answer follow up questions if response trigger involves a wikipedia article (Append the article to a cache).~~ (I'll be using BERT so....)
 
 
 
