@@ -53,7 +53,7 @@ Demo video: https://www.youtube.com/watch?v=pY1tT1fTJ2Q   (unlisted link) (Old)
 
 -https://github.com/nmstoker/SimpleSpeechLoop
 <br>
-https://www.wolframcloud.com/ (Don't worry, we're using the offline WolframEngine (Don't want it? You guessed it right, Don't worry again, you can configure it to use the cloud, you will have to sign up either way))
+https://www.wolframcloud.com/ (Don't worry, we're using the offline WolframEngine (Don't want it? You guessed it right, Don't worry again, you can configure it to use the cloud, you will have to sign up either way unfortunately))
 <br>
 https://www.wolfram.com/engine/
 <br>
@@ -83,6 +83,7 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 <br>
 </br>
 **https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_question_answer.ipynb** (This one is important)
+<br>
 (Will update this section as the project progresses.)
 <br>
 <br>
@@ -97,7 +98,7 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 - Custom Voice
 - Name Change (We here kinda don't like the name BRIGHTNICK-7000)
 - Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)
-- Based on (haha, based) user input, find wikipedia page or get text from first three web sites and proper noun  
+- Based on (haha, based) user input, find wikipedia page or get text from first three web sites and proper noun 
 - Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.
 - Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
 - Manually add in resources to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframeEngine. (For now, the pseudocode is added down below in this readme which also deals with utilizing WolframEngine in general to an extent.)
