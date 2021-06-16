@@ -1,4 +1,4 @@
-# Project-BRIGHTNICK7000
+# Project-NEUROMANCER
 ## This is a Mozilla-TTS and Vosk+Kaldi based 'Home assistant' as a part of a I.P./C.S. school project for Class 12 (K.D.A.V.)
 
 The entire project is made in python. Made by Tanmay Vemuri. Expect to see the relevant docs and logs soon as this is a work in progress.
