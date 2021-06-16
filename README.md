@@ -95,6 +95,7 @@ https://www.moongiant.com/phase/today/ (This is kinda relevant but it is based o
 
 - Music Player
 - Physics and maths Calculation using Wolfram
+- Query queuing (*Working on this one currently*)
 - ~~Config.json (Done)~~
 - Conversation.json for referencing responses
 - Custom Voice
