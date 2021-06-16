@@ -50,7 +50,7 @@ So basically, the point is the Assistant is semi-functional even when offline (E
 Demo video: https://www.youtube.com/watch?v=pY1tT1fTJ2Q   (unlisted link) (Old)
 </br>
 
-##### References and Credits for Websites:
+**References and Credits for Websites**:
 
 -https://github.com/nmstoker/SimpleSpeechLoop
 <br>
