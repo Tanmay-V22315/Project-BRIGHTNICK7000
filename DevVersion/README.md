@@ -5,7 +5,7 @@
 The entire project is made in python. Made by Tanmay Vemuri. Expect to see the relevant docs and logs soon as this is a work in progress.
 Currently works only in debian-based linux distros and is not meant to be shipped out. Will work on that probably.
 
-Anyone can use anything within this project with absolutely no restrictions. This project is and will always remain open-source.
+Anyone can use anything within this project with absolutely no restrictions (Just don't sue me please). This project is and will always remain open-source.
 
 Have a complaint, suggestion or a copyright complaint? Contact me at Tanmay.vemuri85@gmail.com (This email address will probably be changed or removed later so keep your eye out on that).
 
