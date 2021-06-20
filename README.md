@@ -113,9 +113,12 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Classify Input into request types using Tensorflow if *'primitive'* filters miss.(I'm still learning it!)<br>
 ~~- Using FindTextualAnswers from Wolfram, answer follow up questions if response trigger involves a wikipedia article (Append the article to a cache).~~ (I'll be using BERT so....)
 
+# Special Thanks to:
+- Adithya Bharadwaj for partnering with me. Thanks Pardner!
 
 
-### Notes:
+# Notes:
+## Here you can see me slowly devolving into insanity....and finding some cool stuff along the way.
 
 </br>
 - Note: I'm switching over to Vosk and Kaldi for ASR since Deepspeech isn't very precise with....my *"kind of english"*. But this is not finalised yet so I haven't updated this readme accordingly.
@@ -150,3 +153,9 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 
 </br>
 -Note: So I....uh......I just heard about DialoGPT. AND IT'S THE COOLEST THING I'VE EVER SEEN. Also, you probably know what this means, right?.....right?
+<br>
+
+<br>
+-Note: Just noticed [AIMl](https://iq.opengenus.org/get-started-with-aiml/) exists, will be replacing conversation.json with aiml files
+
+
