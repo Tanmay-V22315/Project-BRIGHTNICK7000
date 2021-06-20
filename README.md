@@ -156,6 +156,6 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 <br>
 
 <br>
--Note: Just noticed [AIMl](https://iq.opengenus.org/get-started-with-aiml/) exists, will be replacing conversation.json with aiml files
+-Note: Just noticed [AIMl]:(https://iq.opengenus.org/get-started-with-aiml/) exists, will be replacing conversation.json with aiml files
 
 
