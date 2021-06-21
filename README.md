@@ -164,12 +164,13 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 -Note: I'm switching to YAML in place of JSON for config, because f*** Json for config files (Also it's giving me a lot of trouble).
 
 
-<br>
-    ██╗<br>
- ██╗╚██╗<br>
- ╚═╝ ██║<br>
- ▄█╗ ██║<br>
- ▀═╝██╔╝<br>
-    ╚═╝<br>
-<br>
+```
+    ██╗
+ ██╗╚██╗
+ ╚═╝ ██║
+ ▄█╗ ██║
+ ▀═╝██╔╝
+    ╚═╝
+
  Written by Tanmay Vemuri<br>
+```
