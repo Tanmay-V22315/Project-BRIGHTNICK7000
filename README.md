@@ -39,6 +39,7 @@ Target platform is a raspberry pi but this may change based on the performance. 
 - Gives an introduction of itself (Kind of important) (Offline)
 - Pause by voice (Obvious)
 - Configure paths, voice, location, whether to autocorrect
+- Classify Input into request types using Scikit-learn and its Naive Bayes algorithm if *'primitive'* filters miss.
 - Exit by voice (Obvious)
 - If your query cannot be handled by available statements and functions, **takes an angry nap** (Just kidding, searches google, tells the results or contents of a table or Opens the first link) (Online)
 - Since this project makes use of the Mozilla tts project, This implies that you can train with a dataset to make a custom voice (Maybe even your own). I'll make a Jupyter Notebook so that anyone can make ther own custom voice models.(Or rather make it easier to do so) (Offline, kinda since for training you're better off using Google Colab)
@@ -100,7 +101,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Physics and maths Calculation using Wolfram
 - Query queuing (*Working on this one currently*)
 - ~~Config.json (Done)~~
-- Conversation.json for referencing responses
+- ~~Conversation.json~~ AIML files for referencing responses
 - Custom Voice
 - Name Change (We here kinda don't like the name BRIGHTNICK-7000)
 - Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)
