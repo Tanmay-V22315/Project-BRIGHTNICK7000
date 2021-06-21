@@ -159,4 +159,8 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 <br>
 -Note: Just noticed [AIML]: (https://iq.opengenus.org/get-started-with-aiml/) exists, will be replacing conversation.json with aiml files
 
+<br>
+
+-Note: I'm switching to YAML in place of JSON for config, because f*** Json for config files (Also it's giving me a lot of trouble).
+
 
