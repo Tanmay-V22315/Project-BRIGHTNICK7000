@@ -172,5 +172,5 @@ https://ai.google.com/research/NaturalQuestions/databrowser
  ▀═╝██╔╝
     ╚═╝
 
- Written by Tanmay Vemuri<br>
+ Written by Tanmay Vemuri
 ```
