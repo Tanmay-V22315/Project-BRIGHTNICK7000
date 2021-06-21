@@ -165,11 +165,11 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 
 
 
-#    ██╗
-# ██╗╚██╗
-# ╚═╝ ██║
-# ▄█╗ ██║
-# ▀═╝██╔╝
-#    ╚═╝
-#
-# Written by Tanmay Vemuri
+    ██╗
+ ██╗╚██╗
+ ╚═╝ ██║
+ ▄█╗ ██║
+ ▀═╝██╔╝
+    ╚═╝
+
+ Written by Tanmay Vemuri
