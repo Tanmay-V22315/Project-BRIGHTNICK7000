@@ -99,6 +99,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 
 - Music Player
 - Autocorrect user input (can be turned on or off in config)
+- Multithreading and stuff in certain places to optimize the assistant (Time-wise)
 - Spoken Chess (Not too sure about this one. I could make use of the stockfish module for python but.....my pride won't allow it. Prolly will do something with Alphazero stuff and Reinforcement learning (I have yet to learn it but I've got months for it))
 - Physics and maths Calculation using Wolfram
 - Query queuing (*Working on this one currently*)
