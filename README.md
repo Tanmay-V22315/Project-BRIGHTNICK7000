@@ -105,9 +105,9 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - ~~Config.json (Done)~~
 - ~~Conversation.json~~ AIML files for referencing responses
 - Using AIML to program in some responses (Being done by Adithya Bharadwaj)
-- Custom Voice
--~~Name Change (We here kinda don't like the name BRIGHTNICK-7000)~~
-- Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)<br>
+- Custom Voice <br>
+-~~Name Change (We here kinda don't like the name BRIGHTNICK-7000)~~ <br>
+- Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff) (I might remove this one since it kinda poses a security risk even to the end user)<br>
 -~~Based on (haha, based) user input, find wikipedia page or get text from first three web sites for the proper noun mentioned in question and based on the actual text, give answer (*BERT*)~~(Done!)<br>
 - ~~Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.~~ <br>
 - Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
@@ -167,7 +167,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 -Note: I'm switching to YAML in place of JSON for config, because f*** Json for config files (Also it's giving me a lot of trouble).
 <br>
 
--Note: I'm goin' to be using a 'code signature', not as a way to assert ownership or something like that but just because it looks cool (I mean, just look at that smile ;))
+-Note: I'm goin' to be using a 'code signature', not as a way to assert ownership or something like that but just because it looks cool (I mean, just look at that smile ;)) (Also, I won't use this code signature in files which are just modified versions of existing files from other users or files which relied upon articles and stuff since that's.......plagiarism.)
 
 
 ```
