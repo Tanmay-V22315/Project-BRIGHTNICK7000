@@ -98,6 +98,8 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 ## Upcoming
 
 - Music Player
+- Autocorrect user input (can be turned on or off in config)
+- Spoken Chess
 - Physics and maths Calculation using Wolfram
 - Query queuing (*Working on this one currently*)
 - ~~Config.json (Done)~~
