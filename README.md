@@ -102,6 +102,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Query queuing (*Working on this one currently*)
 - ~~Config.json (Done)~~
 - ~~Conversation.json~~ AIML files for referencing responses
+- Using AIML to program in some responses
 - Custom Voice
 - Name Change (We here kinda don't like the name BRIGHTNICK-7000)
 - Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)
@@ -111,7 +112,6 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Manually add in resources to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframeEngine. (For now, the pseudocode is added down below in this readme which also deals with utilizing WolframEngine in general to an extent.)
 - Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and render convert that dataframe to HTML which can then be opened using webbrowser module for python.<br>
 ~~- Implementing DialoGPT for handling edge cases and and conversational responses we can't program in.(Done)~~<br>
-- Branched Conversation.json, user can follow up with a sentence and if the sentence fits certain trigger words, based on additional attributes (specified within that trigger words list in JSON). Basically, if the response trigger was from the conversation.json, save the response string and the list <br>
 -~~Classify Input into request types using Scikit-learn and its Naive Bayes algorithm if *'primitive'* filters miss.(I'm still learning it!)~~ Done<br>
 ~~- Using FindTextualAnswers from Wolfram, answer follow up questions if response trigger involves a wikipedia article (Append the article to a cache).~~ (I'll be using BERT so....)
 
