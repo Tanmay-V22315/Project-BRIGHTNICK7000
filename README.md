@@ -160,12 +160,15 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 <br>
 
 <br>
--Note: Just noticed [AIML]: (https://iq.opengenus.org/get-started-with-aiml/) exists, will be replacing conversation.json with aiml files
+-Note: Just noticed [AIML](https://iq.opengenus.org/get-started-with-aiml/) exists, will be replacing conversation.json with aiml files
 
 <br>
 
 -Note: I'm switching to YAML in place of JSON for config, because f*** Json for config files (Also it's giving me a lot of trouble).
 <br>
+
+- Note: Our version of the assistant finally has a name 🎉🎉🎉. We are calling it Bernard, a reference to [Bernard of Chartres's](https://en.wikipedia.org/wiki/Bernard_of_Chartres) phrase: "On the shoulder of giants".
+
 
 -Note: I'm goin' to be using a 'code signature', not as a way to assert ownership or something like that but just because it looks cool (I mean, just look at that smile ;)) (Also, I won't use this code signature in files which are just modified versions of existing files from other users or files which relied upon articles and stuff since that's.......plagiarism.)
 
