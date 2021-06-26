@@ -62,7 +62,7 @@ https://www.wolfram.com/engine/
 <br>
 https://reference.wolfram.com/language/
 <br>
--https://github.com/mozilla/TTS
+-https://github.com/coqui-ai/TTS
 <br>
 -https://github.com/mozilla/DeepSpeech
 <br>
@@ -95,7 +95,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 <br>
 
 
-## Upcoming
+## TODO
 
 - Music Player
 - Autocorrect user input (can be turned on or off in config)
