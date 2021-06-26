@@ -7,7 +7,7 @@ Currently works only in debian-based linux distros and is not meant to be shippe
 
 Anyone can use anything within this project with absolutely no restrictions. This project is and will always remain open-source.
 
-Have a complaint, suggestion or a copyright complaint? Contact me at Tanmay.vemuri85@gmail.com (This email address will probably be changed or removed later so keep your eye out on that).
+Have a complaint, suggestion or a copyright complaint? Please please Contact me at Tanmay.vemuri85@gmail.com or raise a github issue, I would be more than happy to resolve it.
 
 This entire project is motivated by the principle that if you're going to make something stupid, you might as well go all in, so there'll definitely be traces of that in this project.
 
@@ -102,14 +102,14 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Query queuing (*Working on this one currently*)
 - ~~Config.json (Done)~~
 - ~~Conversation.json~~ AIML files for referencing responses
-- Using AIML to program in some responses
+- Using AIML to program in some responses (Being done by Adithya Bharadwaj)
 - Custom Voice
 - Name Change (We here kinda don't like the name BRIGHTNICK-7000)
-- Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)
-- Based on (haha, based) user input, find wikipedia page or get text from first three web sites for the proper noun mentioned in question and based on the actual text, give answer (*BERT*)
+- Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)<br>
+-~~Based on (haha, based) user input, find wikipedia page or get text from first three web sites for the proper noun mentioned in question and based on the actual text, give answer (*BERT*)~~(Done!)<br>
 - Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.
 - Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
-- Manually add in resources to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframeEngine. (For now, the pseudocode is added down below in this readme which also deals with utilizing WolframEngine in general to an extent.)
+- Manually add in resources to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframEngine.
 - Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and render convert that dataframe to HTML which can then be opened using webbrowser module for python.<br>
 ~~- Implementing DialoGPT for handling edge cases and and conversational responses we can't program in.(Done)~~<br>
 -~~Classify Input into request types using Scikit-learn and its Naive Bayes algorithm if *'primitive'* filters miss.(I'm still learning it!)~~ Done<br>
