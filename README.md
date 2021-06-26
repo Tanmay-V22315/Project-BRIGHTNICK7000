@@ -15,7 +15,7 @@ There will be a bash install script that will handle the dependencies for you (I
 
 Target platform is a raspberry pi but this may change based on the performance. I have noticed that installing mozilla tts is a bit different and harder on a raspberry pi, not to mention that the raspberry pi has very constrained hardware so I'll have to see how this goes along.
 
-### What this can do:
+### What this can do (Outdated, more stuff has been added):
 - Tells Time
 - ASR (offline)
 - The Non-Trivial Kind of math using Wolfram engine and its client library.(WIP)(Offline)
@@ -99,23 +99,23 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 
 - Music Player
 - Autocorrect user input (can be turned on or off in config)
-- Spoken Chess
+- Spoken Chess (Not too sure about this one. I could make use of the stockfish module for python but.....my pride won't allow it. Prolly will do something with Alphazero stuff and Reinforcement learning (I have yet to learn it but I've got months for it))
 - Physics and maths Calculation using Wolfram
 - Query queuing (*Working on this one currently*)
 - ~~Config.json (Done)~~
 - ~~Conversation.json~~ AIML files for referencing responses
 - Using AIML to program in some responses (Being done by Adithya Bharadwaj)
 - Custom Voice
-- Name Change (We here kinda don't like the name BRIGHTNICK-7000)
+-~~Name Change (We here kinda don't like the name BRIGHTNICK-7000)~~
 - Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff)<br>
 -~~Based on (haha, based) user input, find wikipedia page or get text from first three web sites for the proper noun mentioned in question and based on the actual text, give answer (*BERT*)~~(Done!)<br>
-- Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.
+- ~~Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.~~ <br>
 - Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
-- Manually add in resources to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframEngine.
-- Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and render convert that dataframe to HTML which can then be opened using webbrowser module for python.<br>
+- Manually add in resources and code to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframEngine.
+- Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and convert that dataframe to HTML which can then be opened using webbrowser module for python.<br>
 ~~- Implementing DialoGPT for handling edge cases and and conversational responses we can't program in.(Done)~~<br>
 -~~Classify Input into request types using Scikit-learn and its Naive Bayes algorithm if *'primitive'* filters miss.(I'm still learning it!)~~ Done<br>
-~~- Using FindTextualAnswers from Wolfram, answer follow up questions if response trigger involves a wikipedia article (Append the article to a cache).~~ (I'll be using BERT so....)
+~~- Using FindTextualAnswers from Wolfram, answer follow up questions if response trigger involves a wikipedia article (Append the article to a cache).~~ (I'll be using BERT so....(Which is also complete!))
 
 # Special Thanks to:
 - Adithya Bharadwaj for partnering with me. Thanks Pardner!
