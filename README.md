@@ -113,6 +113,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - ~~Input comprehension and thus finding answers to more 'complex' questions (Complex as in difficult to code in) like how many people in a place, When was Halo 2 released (I just love that game) etc. Basically, this will literally learn as you speak.~~ <br>
 - Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
 - **SHODAN** (Maybe, someday)
+- Port to Cython (Don't hold your breath for this one, there's no guarantee that I'll be doing this.)
 - Manually add in resources and code to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframEngine.
 - Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and convert that dataframe to HTML which can then be opened using webbrowser module for python.<br>
 ~~- Implementing DialoGPT for handling edge cases and and conversational responses we can't program in.(Done)~~<br>
