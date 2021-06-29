@@ -2,7 +2,7 @@
 # This is not functional yet!!! If you really really want it, send me a mail at Tanmay.vemuri22315@gmail.com (this be main mail address) otherwise you can salvage whatever you want from the devversion folder
 ## This is a Mozilla-TTS and Vosk+Kaldi based 'Home assistant' as a part of a I.P./C.S. school project for Class 12 (K.D.A.V.)
 
-The entire project is made in python. Made by Tanmay Vemuri. Expect to see the relevant docs and logs soon as this is a work in progress.
+The entire project is made in python (Well, T&C apply). Made by Tanmay Vemuri. Expect to see the relevant docs and logs soon as this is a work in progress.
 Currently works only in debian-based linux distros and is not meant to be shipped out. Will work on that probably.
 
 Anyone can use anything within this project with absolutely no restrictions. This project is and will always remain open-source.
@@ -100,7 +100,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Music Player
 - Autocorrect user input (can be turned on or off in config)
 - Multithreading and stuff in certain places to optimize the assistant (Time-wise)
-- Spoken Chess (Not too sure about this one. I could make use of the stockfish module for python but.....my pride won't allow it. Prolly will do something with Alphazero stuff and Reinforcement learning (I have yet to learn it but I've got months for it))
+- Spoken Chess. Will be *cheating* a bit here and use C++ for this for obvious reasons. (Not too sure about this one. I could make use of the stockfish module for python but.....my pride won't allow it. Prolly will do something with Alphazero stuff and Reinforcement learning (I have yet to learn it but I've got months for it))
 - Physics and maths Calculation using Wolfram
 - Query queuing (*Working on this one currently*)
 - ~~Config.json (Done)~~
