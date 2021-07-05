@@ -160,7 +160,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 
 - Note: I'm goin' to be using a 'code signature', not as a way to assert ownership or something like that but just because it looks cool (I mean, just look at that smile ;)) (Also, I won't use this code signature in files which are just modified versions of existing files from other users or files which relied upon articles and stuff since that's.......plagiarism.)
 - So I found about NNUEs (Neural Networks updated efficiently) and thanks to that I don't have to deal with making hand-crafted evaluation functions for chess (the thing that, given a state of the chess board, predicts whose side the match is in at that very point) but that's a very small (albeit very essential ) part of the work done, I'll still need to learn C++ and still need to create a gui, create a chess board, define legal moves....blah blah blah cut to my brain blowing up. TL;DR- A lot of work is still left for chess. 
-
+- So I've finally made the decision of going insane and writing up the entire chess board in 3-D using Vulkan, I have quite a bit of prior experience in relation to 3D stuff anyway so....hopefully I won't have a lot of problem. Also that ray-tracing is going to look sweet **if** I get through with all of it.
 
 
 ```
