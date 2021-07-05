@@ -8,9 +8,11 @@ Currently works only in debian-based linux distros and is not meant to be shippe
 Anyone can use anything within this project with absolutely no restrictions. This project is and will always remain open-source.
 
 Have a complaint, suggestion or a copyright complaint? Please please Contact me at Tanmay.vemuri85@gmail.com or raise a github issue, I would be more than happy to resolve it.
-
+### No-holds barred
 This entire project is motivated by the principle that if you're going to make something stupid, you might as well go all in, so there'll definitely be traces of that in this project.
 
+
+## Project Info
 There will be a bash install script that will handle the dependencies for you (In a manner of speaking) so stay tuned for that as well, ig.
 
 Target platform is a raspberry pi but this may change based on the performance. I have noticed that installing mozilla tts is a bit different and harder on a raspberry pi, not to mention that the raspberry pi has very constrained hardware so I'll have to see how this goes along.
