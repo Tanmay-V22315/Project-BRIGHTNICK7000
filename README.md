@@ -1,5 +1,5 @@
 # Project-NEUROMANCER
-# |!!IMPORTANT!!| This is not functional yet!!! If you really really want it, send me a mail at Tanmay.vemuri22315@gmail.com (this be main mail address) or raise a github issue otherwise you can salvage whatever you want from the devversion folder
+# OutDated, Will post the source once completed
 ## This is a Mozilla-TTS and Vosk+Kaldi based 'Home assistant' as a part of a I.P./C.S. school project for Class 12 (K.D.A.V.)
 
 The entire project is made in python (Well, T&C apply). Made by Tanmay Vemuri. Expect to see the relevant docs and logs soon as this is a work in progress.
