@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
+
 # Project-NEUROMANCER
 # OutDated, Will post the source once completed
 ## This is a Coqui-TTS and Vosk+Kaldi based 'Home assistant' as a part of a I.P./C.S. school project for Class 12 (K.D.A.V.)
