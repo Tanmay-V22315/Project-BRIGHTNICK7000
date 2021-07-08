@@ -18,8 +18,9 @@ There will be a bash install script that will handle the dependencies for you (I
 Target platform is a raspberry pi but this may change based on the performance. I have noticed that installing mozilla tts is a bit different and harder on a raspberry pi, not to mention that the raspberry pi has very constrained hardware so I'll have to see how this goes along.
 
 ### What this can do (Outdated, more stuff has been added):
-- Tells Time
-- ASR (offline)
+
+- Tells Time | Offline
+- Automatic Speech Recognition (offline)
 - The Non-Trivial Kind of math using Wolfram engine and its client library.(WIP)(Offline)
 - Tells the weather (online (duh, what, do I look like I own a supercomputer that can accurately model and predict the weather at any place?))
 - Tells a joke (offline)
@@ -133,37 +134,18 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 ## Here you can see me slowly devolving into insanity....and finding some cool stuff along the way.
 
 - Note: I'm switching over to Vosk and Kaldi for ASR since Deepspeech isn't very precise with....my *"kind of english"*. But this is not finalised yet so I haven't updated this readme accordingly.
-
-
 - Another note: I'm moving all of the files to Google Drive due to file size limitations in github. Once I upload the final usable build, I'll update the readme accordingly with the link. The whole thing for distribution itself is like 1 GB and post installation it can take up 26 GB (Mostly because you need to build Kaldi by yourself and it is required by Vosk. Also Vosk+Kaldi can understand English with an Indian accent much better than Deepspeech (Without training it yourself, that is.(As it turns out I'm not made of time....or money or compute power, so......No dice))
-
-
 - Note: The dictionary can now be used offline, complete with meanings, synonyms and antonyms.(9/6/2021 (DD-MM-YYYY))
-
-
 - Uh, New note..No no wait.**"Big Note"** Wolfram Engine offline requires (I think) about 19 GB of storage, Point is, required storage for this whole thing will balloon up to 45 GB, which is......quite problematic. 
-
-
-
-
 - Scratch that previous Note, It requires 2 gigs to install Wolfram engine, Rejoice!!!! (Although it increases as you go along and request (In a manner of speaking) more data)
-<br>
-
-
 - Note: So....uh It turns out, you can do a lot of stuff with Wolfram, so much that that's what I'm going to be dealing with for the next potential months 
-
-- Note: So I....uh......I just heard about DialoGPT. AND IT'S THE COOLEST THING I'VE EVER SEEN. Also, you probably know what this means, right?.....right?
-
+- Note: So I....uh......I just heard about [DialoGPT](https://github.com/microsoft/DialoGPT). AND IT'S THE COOLEST THING I'VE EVER SEEN. Also, you probably know what this means, right?.....right? (For those that are a bit slow, I'll be implementing this into the project to get edge-case responses)
 - Note: Just noticed [AIML](https://iq.opengenus.org/get-started-with-aiml/) exists, will be replacing conversation.json with aiml files
-
-- Note: I'm switching to YAML in place of JSON for config, because f*** Json for config files (Also it's giving me a lot of trouble).
-
+- Note: I'm switching to YAML in place of JSON for user config because it's giving me a lot of trouble.
 - Note: Our version of the assistant finally has a name 🎉🎉🎉. We are calling it Bernard, a reference to [Bernard of Chartres's](https://en.wikipedia.org/wiki/Bernard_of_Chartres) phrase: "On the shoulder of giants".
-
-
 - Note: I'm goin' to be using a 'code signature', not as a way to assert ownership or something like that but just because it looks cool (I mean, just look at that smile ;)) (Also, I won't use this code signature in files which are just modified versions of existing files from other users or files which relied upon articles and stuff since that's.......plagiarism.)
 - So I found about NNUEs (Neural Networks updated efficiently) and thanks to that I don't have to deal with making hand-crafted evaluation functions for chess (the thing that, given a state of the chess board, predicts whose side the match is in at that very point) but that's a very small (albeit very essential ) part of the work done, I'll still need to learn C++ and still need to create a gui, create a chess board, define legal moves....blah blah blah cut to my brain blowing up. TL;DR- A lot of work is still left for chess. 
-- So I've finally made the decision of going insane and writing up the entire chess board in 3-D using Vulkan, I have quite a bit of prior experience in relation to 3D art anyway so....hopefully I won't have a lot of problem. Also that ray-tracing is going to look sweet **if** I get through with all of it.
+- So I've finally made the decision of going insane and writing up the entire chess board in 3-D using Vulkan, I have quite a bit of prior experience with regards to 3D art anyway so....hopefully I won't have a lot of problem. Also that ray-tracing is going to look sweet **if** I get through with all of it.
 - (8/7/2021) Note: The development has come to a stand-still due to lack of time and disorganised code management. Will resume shortly. Also, working on creating a Vulkan Renderer for chess for which I actually have to _learn_ the Vulkan API.....while knowing nothing about Computer Graphics (yeah, on second thought, not my brightest move but I'll pull through). Hopefully, [this](https://vkguide.dev/) will make it easier
 
 
