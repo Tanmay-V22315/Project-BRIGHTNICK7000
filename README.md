@@ -109,10 +109,11 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Custom Voice 
 - Intrusion, Counter-Intrusion stuff, SIGINT (Hacking stuff) (I might remove this one since it kinda poses a security risk even to the end user)<br>
 - Complex math, physics, and chemistry (Ironically, complex salts don't work properly) questions, history economics and whatever the WolframEngine can handle using SemanticInterpretation.
-- **SHODAN** (Maybe, someday)
+- **SHODAN** (Maybe, someday) (the character from System Shock, not the search engine)
+- Read books aloud.
 - Port to Cython (Don't hold your breath for this one, there's no guarantee that I'll be doing this.)
 - Manually add in resources and code to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframEngine.
-- Generate a huge dataset based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and convert that dataframe to HTML which can then be opened using webbrowser module for python.
+- Generate a huge dataset (Dataset as in {"An attribute" : "Value of the attribute"}) based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and convert that dataframe to HTML which can then be opened using webbrowser module for python.
 
 
 # Stuff from TODO finished:
