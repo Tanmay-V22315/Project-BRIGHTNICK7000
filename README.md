@@ -1,5 +1,3 @@
-<link href="style.css" rel="stylesheet"></link>
-
 # Project-NEUROMANCER
 # OutDated, Will post the source once completed
 ## This is a Coqui-TTS and Vosk+Kaldi based 'Home assistant' as a part of a I.P./C.S. school project for Class 12 (K.D.A.V.)
@@ -161,4 +159,5 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - So I've finally made the decision of going insane and writing up the entire chess board in 3-D using Vulkan, I have quite a bit of prior experience with regards to 3D art anyway so....hopefully I won't have a lot of problem. Also that ray-tracing is going to look sweet **if** I get through with all of it.
 - (8/7/2021) Note: The development has come to a stand-still due to lack of time and disorganised code management. Will resume shortly. Also, working on creating a Vulkan Renderer for chess for which I actually have to _learn_ the Vulkan API.....while knowing nothing about Computer Graphics (yeah, on second thought, not my brightest move but I'll pull through). Hopefully, [this](https://vkguide.dev/) will make it easier
 - Facing some problems with TTS, Will be dealing with that. (09/07/2021)
+- It seems there's this thing called [Cauldron](https://github.com/GPUOpen-LibrariesAndSDKs/Cauldron) which makes working with Vulkan _and_ DirectX 12 so that's a 👍 thing
 
