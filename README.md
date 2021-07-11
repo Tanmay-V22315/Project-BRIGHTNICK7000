@@ -161,4 +161,5 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Facing some problems with TTS, Will be dealing with that. (09/07/2021)
 - It seems there's this thing called [Cauldron](https://github.com/GPUOpen-LibrariesAndSDKs/Cauldron) which makes working with Vulkan _and_ DirectX 12 so that's a 👍 thing
 - Note: So I'm going to *cheat* a bit.....again, layered on top of the previous cheat (using C++ for the Chess stuff)(Hey, that's how abstraction works right?). I'm planning to switch to Rust because the more I look at C++ code, the more I feel like I'm going absolutely insane. It's just really archaic, doesn't make any sense and so on and so forth and as of now, time is of the essence. 
+- Planning to switch to Google Meena for edge-case handling. Thanks to: [frankplus/meena-chatbot](https://github.com/frankplus/meena-chatbot). Also I'm looking for some contributors and ideas since work is starting to pile up more than I had aniticipated.
 
