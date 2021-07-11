@@ -19,35 +19,37 @@ Target platform is a raspberry pi but this may change based on the performance. 
 
 ### What this can do (Outdated, more stuff has been added):
 
-- Tells Time | Offline
-- Automatic Speech Recognition (offline)
-- The Non-Trivial Kind of math using Wolfram engine and its client library.(WIP)(Offline)
-- Tells the weather (online (duh, what, do I look like I own a supercomputer that can accurately model and predict the weather at any place?))
-- Tells a joke (offline)
-- Searches google and tells the results (Online (Again, obvious))
-- News (Online)
-- Speak (Offline)
-- Execute terminal commands (WIP) (Offline)
-- Tells a quote (Offline)
-- Gives a short description of stuff you ask by looking up Wikipedia (Obviously online)
-- Dictionary meanings (Offline)
-- Synonyms of words (Offline)
-- Antonyms of words (Offline)
-- Offline Dictionary (Offline (It's in the name, why am I even telling you)
-- Finds a random wikipedia article and gives a 2-3 sentence summary. (Online)
-- Gives the meaning of a random legal term (cause why not) (Online)
-- Open System monitor (Obvious)
-- Saves queries to a log file (I don't even need to say this one)
-- Can repeat what you say (....)
-- Gives an introduction of itself (Kind of important) (Offline)
-- Pause by voice (Obvious)
-- Configure paths, voice, location, whether to autocorrect
-- Classify Input into request types using Scikit-learn and its Naive Bayes algorithm if *'primitive'* filters miss.
-- Exit by voice (Obvious)
-- If your query cannot be handled by available statements and functions, **takes an angry nap** (Just kidding, searches google, tells the results or contents of a table or Opens the first link) (Online)
-- Since this project makes use of the Mozilla tts project, This implies that you can train with a dataset to make a custom voice (Maybe even your own). I'll make a Jupyter Notebook so that anyone can make ther own custom voice models.(Or rather make it easier to do so) (Offline, kinda since for training you're better off using Google Colab)
-- Tells you random fun facts
+
+|Feature name| Connection required? | Does it work as intended? |
+|--------|--------|--------|
+| Tells Time | Offline | ✔️ |
+| Automatic Speech Recognition | Offline | ✔️ (Mileage may vary)|
+| The Non-Trivial Kind of math using Wolfram engine and its client library | Offline | ❌ (Working on it) |
+| Tells the weather | Online only (duh, what, do I look like I own a supercomputer that can accurately model and predict the weather at any place?) | ✔️ |
+| Tells a joke | Offline | ❗(some jokes are NSFW) |
+| Searches google and tells the results | Online (Again, obvious) | ✔️ (not used anyway but is still there just in case) |
+| News | Online | ❗ (probably need to change sources, currently takes from google news, also sometimes advertisements and clickbaits pass through) |
+| Speak | Offline | ❌ (Current Tacotron2 model using Cortana's voice skips through some words and is generally inconsistent for our purposes (Also it is prettty slow), switching to a new voice shortly)
+| Tells a quote | Offline | ✔️
+| Gives a short description of stuff you ask by looking up Wikipedia | Obviously online | 
+| Dictionary meanings | Offline | ✔️ (Planning to use Oxford dictionary api when online or some other solution since Wordnet from nltk is not very consistent) |
+| Synonyms of words | Offline | ✔️ |
+| Antonyms of words | Offline | ✔️ |
+| Finds a random wikipedia article and gives a 2-3 sentence summary. | Online | ✔️ |
+| Gives the meaning of a random legal term (cause why not) | Online | ✔️ |
+| Saves queries to a log file | I don't even need to say this one | ✔️ |
+| Can repeat what you say | .... | ✔️ |
+| Gives an introduction of itself (Kind of important) | Offline | ❗(have to change the introduction but otherwise works) | 
+| Pause by voice | Obvious | ✔️ |
+| Configure paths, voice, location, whether to autocorrect | N.A | ✔️ (config will increase over time as I add more features)| 
+|Classify Input into request types using Scikit-learn and its Naive Bayes algorithm if *'primitive'* filters miss. | Offline | ✔️ (YMMV)|
+| Exit by voice | Obvious | ✔️ |
+| If your query cannot be handled by available statements and functions, **takes an angry nap** (Just kidding, searches google, tells the results or contents of a table or Opens the first link) | Online | ✔️ (due to better alternatives, this is not used but it is still there)
+| Since this project makes use of the COQUI tts project, This implies that you can train with a dataset to make a custom voice (Maybe even your own). I'll make a Jupyter Notebook so that anyone can make ther own custom voice models.(Or rather make it easier to do so) | Offline, kinda since for training you're better off using Google Colab | ✔️ |
+| Tells you random fun facts | Online | ✔️ |
+
 And a Whole host of new features coming up in a while. Stay tuned!!
+
 So basically, the point is the Assistant is semi-functional even when offline (Even if it is a bit slower as compared to online versions)
 
 
