@@ -47,6 +47,7 @@ Target platform is a raspberry pi but this may change based on the performance. 
 | If your query cannot be handled by available statements and functions, **takes an angry nap** (Just kidding, searches google, tells the results or contents of a table or Opens the first link) | Online | ✔️ (due to better alternatives, this is not used but it is still there)
 | Since this project makes use of the COQUI tts project, This implies that you can train with a dataset to make a custom voice (Maybe even your own). I'll make a Jupyter Notebook so that anyone can make ther own custom voice models.(Or rather make it easier to do so) | Offline, kinda since for training you're better off using Google Colab | ✔️ |
 | Tells you random fun facts | Online | ✔️ |
+| Handle conversational edge cases using DialoGPT | Offline | ✔️ |
 
 And a Whole host of new features coming up in a while. Stay tuned!!
 
@@ -117,6 +118,7 @@ https://ai.google.com/research/NaturalQuestions/databrowser
 - Port to Cython (Don't hold your breath for this one, there's no guarantee that I'll be doing this.)
 - Manually add in resources and code to handle Graph plotting, equation render, vector algebra and other *"special cases"* to make utmost use of WolframEngine.
 - Generate a huge dataset (Dataset as in {"An attribute" : "Value of the attribute"}) based on what the user wanted, combining data found from Wikipedia, Google and Wolfram, generate a Dataframe from these and convert that dataframe to HTML which can then be opened using webbrowser module for python.
+- Replace DialoGPT with [Google Meena implementation](https://github.com/frankplus/meena-chatbot).
 
 
 # Stuff from TODO finished:
