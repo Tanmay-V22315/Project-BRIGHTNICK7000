@@ -1,5 +1,5 @@
 # Project-NEUROMANCER
-# OutDated, Will post the source once completed
+# No longer developed due to archaic code base. Started from scratch.
 ## This is a Coqui-TTS and Vosk+Kaldi based 'Home assistant' as a part of a I.P./C.S. school project for Class 12 (K.D.A.V.)
 
 The entire project is made in python (Well, T&C apply). Made by Tanmay Vemuri. Expect to see the relevant docs and logs soon as this is a work in progress.
